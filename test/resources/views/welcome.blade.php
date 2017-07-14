@@ -64,7 +64,7 @@
             }
         </style>
     </head>
-    <body>
+    <body style="background-image: url('{{asset('/home/skillTest/test/public/images/flower.jpg')}}'); height: 50%">
         <div class="flex-center position-ref full-height">
             @if (Route::has('login'))
                 <div class="top-right links">

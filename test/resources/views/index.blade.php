@@ -2,9 +2,14 @@
 <html>
 <head>
     <title>practice</title>
+    <style type="text/css">
+        body {
+            background-image: url("test/public/images/flower.jpg");
+            background-repeat: repeat-x;
+        }
+    </style>
 </head>
 <body >
-<h1>HELLO WORLD</h1>
- <img src="url('{{asset('../images/flower.jpg')}}')" alt="#"/>
+<img src="test/public/images/flower.jpg" alt="image">
 </body>
 </html>
